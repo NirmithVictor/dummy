@@ -1,7 +1,7 @@
 /* main script for simple load scenarios */
 
 /*Loader animation*/
-let spinnerWrapper = document.querySelector('.spinner-wrapper');
+let spinnerWrapper = document.getElementById("preloader");
 
 window.addEventListener('load', function () {
      spinnerWrapper.style.display = 'none';
